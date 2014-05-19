@@ -32,5 +32,15 @@ module SpreeApp
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
+    I18n.enforce_available_locales = false
+
+    # This is used to fix a bug with Spree rendering Font Awesome icons on the admin side of the site.
+
+    config.assets.initialize_on_precompile = false
+
+    # This is used to fix a bug with Spree rendering Font Awesome icons on the admin side of the site.
+    config.assets.precompile += %w(FontAwesome.otf fontawesome-webfont.eot fontawesome-webfont.svg fontawesome-webfont.ttf fontawesome-webfont.woff)
+
   end
 end
