@@ -96,7 +96,7 @@ GEM
       activesupport (= 4.1.0)
       builder (~> 3.1)
       erubis (~> 2.7.0)
-    active_utils (2.2.0)
+    active_utils (2.2.1)
       activesupport (>= 2.3.11)
       i18n
     activemerchant (1.42.9)
@@ -151,7 +151,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
-    colorize (0.7.2)
+    colorize (0.7.3)
     deface (1.0.0)
       colorize (>= 0.5.8)
       nokogiri (~> 1.6.0)
@@ -206,7 +206,7 @@ GEM
       money (~> 6.1.0.beta1)
     money (6.1.1)
       i18n (~> 0.6.4)
-    multi_json (1.10.0)
+    multi_json (1.10.1)
     multi_xml (0.5.5)
     nested_form (0.3.2)
     nokogiri (1.6.2.1)
